@@ -1,0 +1,13 @@
+/.idea/
+/.nuxt/
+/node_modules/
+/dist*
+/build*
+
+/static/sw*
+/static/version
+
+.DS_Store
+npm-debug.log
+yarn-error.log
+package-lock.json

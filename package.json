@@ -1,0 +1,21 @@
+{
+  "name": "vue-infinity-scroll",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "HOST=0.0.0.0 PORT=8300 nuxt-ts",
+    "start": "HOST=0.0.0.0 nuxt-ts start",
+    "clean": "rm -rf dist*",
+    "build": "yarn clean && NODE_ENV=production nuxt-ts build"
+  },
+  "dependencies": {
+    "coa-nuxt": "^1.0.30",
+    "normalize.css": "^8.0.1",
+    "vant": "^2.10.2"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^2.0.2",
+    "less": "^3.12.2",
+    "less-loader": "^6.2.0"
+  }
+}
